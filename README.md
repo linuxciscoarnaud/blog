@@ -10,3 +10,7 @@ II -Installation et exécution de l'applition
 Comme prérequis il faudra disposer de la plateforme windows ou linux dans laquelle sont instalés  la jdk et jre version 1.8.0, l'IDE eclipse ou Netbeaans, le SGBD myql version 8.0.16, un navigateur performant tel que chrome ou mozilla firefox. Il faudra aussi disposer d'une connexion internet. Suivre scrupuleusement les étapes suivantes pour installer et exécuter l'application:
 
 1- Téléchager l'application sur mon compte Github via le lien suivant: https://github.com/linuxciscoarnaud/blog.git Le fichier téléchargé aura une extension .zip. il faudra donc le dézipper et stocker le dossier comportant l'application dans un repertoire de votre ordinateur, de préférence celui dans lequel vous stockez vos applications java.
+
+2- Importer le project dans votre IDE. Pour ceux utilisant l'IDE eclipse, exécuter les étapes suivantes pour importer le project:
+
+   - Clique sur File -> Import... 
