@@ -1,0 +1,1 @@
+insert into post (id, date_time_posted, post_content, post_title) values ('1', now(), 'The Best New Ideas live at the Boundary between the Real World and Technology', 'Impact of Technology');
