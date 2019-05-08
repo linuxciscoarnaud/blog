@@ -19,3 +19,8 @@ Comme prérequis il faudra disposer de la plateforme windows ou linux dans laque
    - Pour terminer, cliquer sur "Finish"
   
   Le project va se charger et les fichiers de dépendance .jar seront automatiquement téléchargés 
+  
+ 3- Dans le SGBD mysql, créer la base de données: blog_db
+ 
+ 4- Ouvrir le fichier "application.properties" du projet qui se trouve dans le repertoire: "src/main/resources" et modifier les 
+    informations suivantes selon les données de connexion au SGBD mysql de votre prope installation
