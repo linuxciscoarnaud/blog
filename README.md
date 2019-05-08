@@ -24,3 +24,14 @@ Comme prérequis il faudra disposer de la plateforme windows ou linux dans laque
  
  4- Ouvrir le fichier "application.properties" du projet qui se trouve dans le repertoire: "src/main/resources" et modifier les 
     informations suivantes selon les données de connexion au SGBD mysql de votre prope installation
+    
+    - spring.datasource.username=......
+    - spring.datasource.password=...... 
+    
+   Vous trouverz que les miennes selon mon installation du SGBD msql sont les suivantes:
+   
+    - spring.datasource.username=root
+    -spring.datasource.password=admin
+    
+   Vous devez absolument faire ces modifications pour que l'application puisse se connecter et créer le schéma de la base de donnée
+   (tables, champs et relations) au lancement.
