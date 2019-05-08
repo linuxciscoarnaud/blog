@@ -35,3 +35,21 @@ Comme prérequis il faudra disposer de la plateforme windows ou linux dans laque
     
    Vous devez absolument faire ces modifications pour que l'application puisse se connecter et créer le schéma de la base de donnée
    (tables, champs et relations) au lancement.
+   
+ 5- Pour lancer l'application, exécuter les étapes suivantes:
+ 
+    - Dans l'explorateur de projets d'eclipse, repérer le projet et naviguer jusqu'au fichier "BlogApplication.java", puis y faire un clique droit
+    - Dans le menu deroulant, selectionner sur "Run As", puis cliquer sur "2 Java Application"
+    
+   Au lancement de l'application, un enrégistrement d'un post est automatiquement creé dans la base de donnée. Ce post a pour
+   identifiant la valeur 1.
+   
+ 6- Si le test/évaluation implique qu'il faille fréquement redémarrer l'application, alors apres le premier démarrage il faudra ouvrir 
+    le fichier "application.properties" qui se trouve dans le repertoire: "src/main/resources" et y faire la modification suivante:
+    
+    - spring.jpa.hibernate.ddl-auto=update
+    
+   Ceci va éviter la re-création du schéma de la base de donnée à chaque redémarrage, et par conséquent la perte de données.
+
+7- Lorsque l'application démarre sans erreurs, ouvrir un navigateur et écrire dans la barre d'adresse le lien suivant: http://localhost:8080/, puis taper sur la touche "Entrer". Vous serez alors redirigés vers la page d'accueil de Swagger qui va vous afficher les differents services déjà utilisables du REST API. Bien vouloir se reférer au fichier "Mini_guide_d'utilisation.pdf" qui se trouve dans le dossier de l'application pour les détails d'utilisation des services sur 
+ Swagger. 
