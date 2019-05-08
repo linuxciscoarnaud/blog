@@ -14,3 +14,8 @@ Comme prérequis il faudra disposer de la plateforme windows ou linux dans laque
 2- Importer le project dans votre IDE. Pour ceux utilisant l'IDE eclipse, exécuter les étapes suivantes pour importer le project:
 
    - Clique sur File -> Import... 
+   - Dans la fenetre qui s'affiche, cliquer sur "Existing Maven Project" puis sur "Next"
+   - Cliquer sur "Browse" et naviger jusqu'au dossier du projet que vous venez de dézipper. Sélectionner ce dossier, puis cliquer sur "OK"
+   - Pour terminer, cliquer sur "Finish"
+  
+  Le project va se charger et les fichiers de dépendance .jar seront automatiquement téléchargés 
